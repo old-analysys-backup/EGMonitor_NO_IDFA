@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17BCC52F1E13668E005CDC52 /* libEGMonitor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BCC52E1E13668E005CDC52 /* libEGMonitor.a */; };
+		17BCC5391E136694005CDC52 /* FirstPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BCC5311E136694005CDC52 /* FirstPageViewController.m */; };
+		17BCC53A1E136694005CDC52 /* FirstPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17BCC5321E136694005CDC52 /* FirstPageViewController.xib */; };
+		17BCC53B1E136694005CDC52 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BCC5341E136694005CDC52 /* RootViewController.m */; };
+		17BCC53C1E136694005CDC52 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17BCC5351E136694005CDC52 /* RootViewController.xib */; };
+		17BCC53D1E136694005CDC52 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BCC5371E136694005CDC52 /* WebViewController.m */; };
+		17BCC53E1E136694005CDC52 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17BCC5381E136694005CDC52 /* WebViewController.xib */; };
+		A693CBDE1E01335000280757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A693CBDD1E01335000280757 /* main.m */; };
+		A693CBE71E01335000280757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A693CBE51E01335000280757 /* Main.storyboard */; };
+		A693CBE91E01335000280757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A693CBE81E01335000280757 /* Assets.xcassets */; };
+		A693CBEC1E01335000280757 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A693CBEA1E01335000280757 /* LaunchScreen.storyboard */; };
+		A693CC171E0133A200280757 /* EGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A693CC081E0133A200280757 /* EGAppDelegate.m */; };
+		A693CC1E1E01344600280757 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A693CC1D1E01344600280757 /* libz.tbd */; };
+		A693CC201E01345300280757 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A693CC1F1E01345300280757 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17BCC52D1E13668E005CDC52 /* EGMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGMonitor.h; sourceTree = "<group>"; };
+		17BCC52E1E13668E005CDC52 /* libEGMonitor.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEGMonitor.a; sourceTree = "<group>"; };
+		17BCC5301E136694005CDC52 /* FirstPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstPageViewController.h; sourceTree = "<group>"; };
+		17BCC5311E136694005CDC52 /* FirstPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstPageViewController.m; sourceTree = "<group>"; };
+		17BCC5321E136694005CDC52 /* FirstPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstPageViewController.xib; sourceTree = "<group>"; };
+		17BCC5331E136694005CDC52 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		17BCC5341E136694005CDC52 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		17BCC5351E136694005CDC52 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		17BCC5361E136694005CDC52 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		17BCC5371E136694005CDC52 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		17BCC5381E136694005CDC52 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		A693CBD91E01335000280757 /* EGMonitor_NO_Idfa_SDK_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGMonitor_NO_Idfa_SDK_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A693CBDD1E01335000280757 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A693CBE61E01335000280757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A693CBE81E01335000280757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A693CBEB1E01335000280757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A693CBED1E01335000280757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A693CC081E0133A200280757 /* EGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGAppDelegate.m; sourceTree = "<group>"; };
+		A693CC091E0133A200280757 /* EGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGAppDelegate.h; sourceTree = "<group>"; };
+		A693CC1D1E01344600280757 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A693CC1F1E01345300280757 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A693CBD61E01335000280757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A693CC201E01345300280757 /* WebKit.framework in Frameworks */,
+				17BCC52F1E13668E005CDC52 /* libEGMonitor.a in Frameworks */,
+				A693CC1E1E01344600280757 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17BCC52C1E13668E005CDC52 /* EGMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				17BCC52D1E13668E005CDC52 /* EGMonitor.h */,
+				17BCC52E1E13668E005CDC52 /* libEGMonitor.a */,
+			);
+			path = EGMonitor;
+			sourceTree = SOURCE_ROOT;
+		};
+		A693CBD01E01335000280757 = {
+			isa = PBXGroup;
+			children = (
+				A693CBDB1E01335000280757 /* EGMonitor_NO_Idfa_SDK_Demo */,
+				A693CBDA1E01335000280757 /* Products */,
+				A693CC1C1E01344500280757 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A693CBDA1E01335000280757 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A693CBD91E01335000280757 /* EGMonitor_NO_Idfa_SDK_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A693CBDB1E01335000280757 /* EGMonitor_NO_Idfa_SDK_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				17BCC52C1E13668E005CDC52 /* EGMonitor */,
+				A693CBF31E0133A100280757 /* DemoViewControllers */,
+				A693CC091E0133A200280757 /* EGAppDelegate.h */,
+				A693CC081E0133A200280757 /* EGAppDelegate.m */,
+				A693CBE51E01335000280757 /* Main.storyboard */,
+				A693CBE81E01335000280757 /* Assets.xcassets */,
+				A693CBEA1E01335000280757 /* LaunchScreen.storyboard */,
+				A693CBED1E01335000280757 /* Info.plist */,
+				A693CBDC1E01335000280757 /* Supporting Files */,
+			);
+			path = EGMonitor_NO_Idfa_SDK_Demo;
+			sourceTree = "<group>";
+		};
+		A693CBDC1E01335000280757 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A693CBDD1E01335000280757 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A693CBF31E0133A100280757 /* DemoViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				17BCC5331E136694005CDC52 /* RootViewController.h */,
+				17BCC5341E136694005CDC52 /* RootViewController.m */,
+				17BCC5351E136694005CDC52 /* RootViewController.xib */,
+				17BCC5301E136694005CDC52 /* FirstPageViewController.h */,
+				17BCC5311E136694005CDC52 /* FirstPageViewController.m */,
+				17BCC5321E136694005CDC52 /* FirstPageViewController.xib */,
+				17BCC5361E136694005CDC52 /* WebViewController.h */,
+				17BCC5371E136694005CDC52 /* WebViewController.m */,
+				17BCC5381E136694005CDC52 /* WebViewController.xib */,
+			);
+			path = DemoViewControllers;
+			sourceTree = "<group>";
+		};
+		A693CC1C1E01344500280757 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A693CC1F1E01345300280757 /* WebKit.framework */,
+				A693CC1D1E01344600280757 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A693CBD81E01335000280757 /* EGMonitor_NO_Idfa_SDK_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A693CBF01E01335000280757 /* Build configuration list for PBXNativeTarget "EGMonitor_NO_Idfa_SDK_Demo" */;
+			buildPhases = (
+				A693CBD51E01335000280757 /* Sources */,
+				A693CBD61E01335000280757 /* Frameworks */,
+				A693CBD71E01335000280757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EGMonitor_NO_Idfa_SDK_Demo;
+			productName = EGMonitor_NO_Idfa_SDK_Demo;
+			productReference = A693CBD91E01335000280757 /* EGMonitor_NO_Idfa_SDK_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A693CBD11E01335000280757 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EG;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Analysys;
+				TargetAttributes = {
+					A693CBD81E01335000280757 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A693CBD41E01335000280757 /* Build configuration list for PBXProject "EGMonitor_NO_Idfa_SDK_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A693CBD01E01335000280757;
+			productRefGroup = A693CBDA1E01335000280757 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A693CBD81E01335000280757 /* EGMonitor_NO_Idfa_SDK_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A693CBD71E01335000280757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BCC53A1E136694005CDC52 /* FirstPageViewController.xib in Resources */,
+				A693CBEC1E01335000280757 /* LaunchScreen.storyboard in Resources */,
+				17BCC53C1E136694005CDC52 /* RootViewController.xib in Resources */,
+				17BCC53E1E136694005CDC52 /* WebViewController.xib in Resources */,
+				A693CBE91E01335000280757 /* Assets.xcassets in Resources */,
+				A693CBE71E01335000280757 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A693CBD51E01335000280757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A693CC171E0133A200280757 /* EGAppDelegate.m in Sources */,
+				17BCC53D1E136694005CDC52 /* WebViewController.m in Sources */,
+				A693CBDE1E01335000280757 /* main.m in Sources */,
+				17BCC53B1E136694005CDC52 /* RootViewController.m in Sources */,
+				17BCC5391E136694005CDC52 /* FirstPageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A693CBE51E01335000280757 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A693CBE61E01335000280757 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A693CBEA1E01335000280757 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A693CBEB1E01335000280757 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A693CBEE1E01335000280757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A693CBEF1E01335000280757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A693CBF11E01335000280757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ju Wang (4MYM262W5U)";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = EGMonitor_NO_Idfa_SDK_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EGMonitor",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.analysys.EGMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "980835c0-4710-4cf1-8a5b-970868f1ba30";
+				PROVISIONING_PROFILE_SPECIFIER = "DevProfile Of Analysys IOS Wildcard App ID";
+			};
+			name = Debug;
+		};
+		A693CBF21E01335000280757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ju Wang (4MYM262W5U)";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = EGMonitor_NO_Idfa_SDK_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EGMonitor",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.analysys.EGMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "980835c0-4710-4cf1-8a5b-970868f1ba30";
+				PROVISIONING_PROFILE_SPECIFIER = "DevProfile Of Analysys IOS Wildcard App ID";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A693CBD41E01335000280757 /* Build configuration list for PBXProject "EGMonitor_NO_Idfa_SDK_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A693CBEE1E01335000280757 /* Debug */,
+				A693CBEF1E01335000280757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A693CBF01E01335000280757 /* Build configuration list for PBXNativeTarget "EGMonitor_NO_Idfa_SDK_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A693CBF11E01335000280757 /* Debug */,
+				A693CBF21E01335000280757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A693CBD11E01335000280757 /* Project object */;
+}
